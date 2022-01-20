@@ -1,0 +1,2 @@
+rootProject.name = "MyPSBB"
+include ':app'

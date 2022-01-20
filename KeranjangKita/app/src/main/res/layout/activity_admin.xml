@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminActivity">
+
+    <TextView
+        android:id="@+id/judulAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU ADMIN"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_marginTop="180dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="40dp"/>
+
+    <Button
+        android:id="@+id/buttonCreate"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulAdmin"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="82dp"
+        android:text="Add Product" />
+
+    <Button
+        android:id="@+id/buttonEdit"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonCreate"
+        android:layout_centerInParent="true"
+        android:text="Edit Product" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="176dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonEdit"
+        android:layout_centerInParent="true"
+        android:text="Delete Product" />
+
+    <Button
+        android:id="@+id/buttonCari"
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonDelete"
+        android:layout_centerInParent="true"
+        android:text="Find Product" />
+
+    <Button
+        android:id="@+id/buttonLeave"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/buttonCari"
+        android:layout_marginTop="50dp"
+        android:text="EXIT" />
+
+
+
+</RelativeLayout>

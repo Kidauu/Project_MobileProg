@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hamItem1"
+        android:icon="@drawable/ic_belanja"
+        android:title="Check Product" />
+    <item
+        android:id="@+id/hamItem2"
+        android:icon="@drawable/ic_profile"
+        android:title="Profile" />
+    <item
+        android:id="@+id/hamItem3"
+        android:icon="@drawable/ic_cart"
+        android:title="Cart" />
+    <item
+        android:id="@+id/hamItem4"
+        android:icon="@drawable/ic_about"
+        android:title="About Us"
+        />
+    <item
+        android:id="@+id/hamItem5"
+        android:icon="@drawable/ic_exit"
+        android:title="Quit from KeranjangKita"
+        />
+
+</menu>
